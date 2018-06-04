@@ -9,6 +9,7 @@
 #import "YKMainViewController.h"
 #import "YKCountView.h"
 #import "YKGraphView.h"
+#import "YKMedalDrawing.h"
 
 @interface YKMainViewController ()
 @property (weak, nonatomic) IBOutlet YKCountView *countView;
@@ -18,6 +19,7 @@
 @property(weak,nonatomic)IBOutlet UILabel  *maxLabel;
 @property(weak,nonatomic)IBOutlet UIStackView  *stackView;
 
+@property (weak, nonatomic) IBOutlet YKMedalDrawing *medalView;
 
 @property(nonatomic,assign)BOOL  isShowGraphView;
 
@@ -30,6 +32,7 @@
     // Do any additional setup after loading the view.
     self.isShowGraphView = NO;
     [self.countView addObserver:self forKeyPath:@"drinkCount" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+    [self checkTotal];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
@@ -45,6 +48,7 @@
     if (self.countView.drinkCount<8) {
         self.countView.drinkCount +=1;
     }
+    [self checkTotal];
     self.countLabel.text = [NSString stringWithFormat:@"%lu",self.countView.drinkCount];
 }
 - (IBAction)reduceDrinkCount:(UIButton *)sender {
@@ -54,6 +58,7 @@
     if (self.countView.drinkCount>0) {
         self.countView.drinkCount -=1;
     }
+    [self checkTotal];
     self.countLabel.text = [NSString stringWithFormat:@"%lu",self.countView.drinkCount];
 }
 
@@ -96,36 +101,13 @@
     }
 }
 
-- (NSString *)switchDayWith:(NSInteger)day{
-    NSString *wdS;
-    switch (day) {
-        case 1:
-            wdS=@"日";
-            break;
-        case 2:
-            wdS=@"一";
-            break;
-        case 3:
-            wdS=@"二";
-            break;
-        case 4:
-            wdS=@"三";
-            break;
-        case 5:
-            wdS=@"四";
-            break;
-        case 6:
-            wdS=@"五";
-            break;
-        case 7:
-            wdS=@"六";
-            break;
-        default:
-            break;
+- (void)checkTotal{
+    if (self.countView.drinkCount >= 8) {
+        [self.medalView showMedal:YES];
+    }else{
+        [self.medalView showMedal:NO];
     }
-    return wdS;
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

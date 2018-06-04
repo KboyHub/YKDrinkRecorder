@@ -67,7 +67,7 @@ IB_DESIGNABLE
     outLinePath.lineWidth = LineWidth;
     [outLinePath stroke];
     
-    //***8绘制刻度
+    //***绘制刻度
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSaveGState(context);
     [self.outLineColor setFill];

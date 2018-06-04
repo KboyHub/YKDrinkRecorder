@@ -16,6 +16,7 @@
 		B212302920BA4D9A00091A8E /* YKPushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B212302820BA4D9A00091A8E /* YKPushButton.m */; };
 		B212302C20BA5D1000091A8E /* YKCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = B212302B20BA5D1000091A8E /* YKCountView.m */; };
 		B212302F20BA874500091A8E /* YKGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = B212302E20BA874500091A8E /* YKGraphView.m */; };
+		B226495920C57444007E406D /* YKMedalDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = B226495820C57444007E406D /* YKMedalDrawing.m */; };
 		B26D38B220C2940C0086EE2B /* YKBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26D38B120C2940C0086EE2B /* YKBackgroundView.m */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,8 @@
 		B212302B20BA5D1000091A8E /* YKCountView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKCountView.m; sourceTree = "<group>"; };
 		B212302D20BA874500091A8E /* YKGraphView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKGraphView.h; sourceTree = "<group>"; };
 		B212302E20BA874500091A8E /* YKGraphView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKGraphView.m; sourceTree = "<group>"; };
+		B226495720C57444007E406D /* YKMedalDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKMedalDrawing.h; sourceTree = "<group>"; };
+		B226495820C57444007E406D /* YKMedalDrawing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKMedalDrawing.m; sourceTree = "<group>"; };
 		B26D38B020C2940C0086EE2B /* YKBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKBackgroundView.h; sourceTree = "<group>"; };
 		B26D38B120C2940C0086EE2B /* YKBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKBackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +73,10 @@
 		B212300A20BA3DD500091A8E /* YKDrinkRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				B26D38B020C2940C0086EE2B /* YKBackgroundView.h */,
+				B26D38B120C2940C0086EE2B /* YKBackgroundView.m */,
+				B226495720C57444007E406D /* YKMedalDrawing.h */,
+				B226495820C57444007E406D /* YKMedalDrawing.m */,
 				B212302720BA4D9A00091A8E /* YKPushButton.h */,
 				B212302820BA4D9A00091A8E /* YKPushButton.m */,
 				B212302A20BA5D1000091A8E /* YKCountView.h */,
@@ -85,8 +92,6 @@
 				B212300C20BA3DD500091A8E /* AppDelegate.m */,
 				B212301920BA3DD600091A8E /* Info.plist */,
 				B212301A20BA3DD600091A8E /* main.m */,
-				B26D38B020C2940C0086EE2B /* YKBackgroundView.h */,
-				B26D38B120C2940C0086EE2B /* YKBackgroundView.m */,
 			);
 			path = YKDrinkRecorder;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				B212302F20BA874500091A8E /* YKGraphView.m in Sources */,
 				B26D38B220C2940C0086EE2B /* YKBackgroundView.m in Sources */,
 				B212302C20BA5D1000091A8E /* YKCountView.m in Sources */,
+				B226495920C57444007E406D /* YKMedalDrawing.m in Sources */,
 				B212300D20BA3DD500091A8E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

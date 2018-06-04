@@ -10,4 +10,8 @@
 
 @interface YKBackgroundView : UIView
 
+@property(nonatomic,strong)IBInspectable UIColor  *lightColor;
+@property(nonatomic,strong)IBInspectable UIColor  *darkColor;
+@property(nonatomic,assign)IBInspectable CGFloat  patternSize;
+
 @end

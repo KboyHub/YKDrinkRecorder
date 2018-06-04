@@ -118,12 +118,6 @@ IB_DESIGNABLE
     [[[UIColor whiteColor]colorWithAlphaComponent:colorAlpha] setStroke];
     linePath.lineWidth = 1.0;
     [linePath stroke];
-    
-    
-    
-
-    
-    
 
     CGGradientRelease(gradient);
     CGColorSpaceRelease(colorSpace);
