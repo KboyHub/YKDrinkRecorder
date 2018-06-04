@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YKMainViewController.h
 //  YKDrinkRecorder
 //
 //  Created by yankang on 2018/5/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YKMainViewController : UIViewController
 
 @end
-

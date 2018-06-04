@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		B212300D20BA3DD500091A8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B212300C20BA3DD500091A8E /* AppDelegate.m */; };
-		B212301020BA3DD500091A8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B212300F20BA3DD500091A8E /* ViewController.m */; };
 		B212301320BA3DD500091A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B212301120BA3DD500091A8E /* Main.storyboard */; };
 		B212301520BA3DD600091A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B212301420BA3DD600091A8E /* Assets.xcassets */; };
 		B212301820BA3DD600091A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B212301620BA3DD600091A8E /* LaunchScreen.storyboard */; };
 		B212301B20BA3DD600091A8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B212301A20BA3DD600091A8E /* main.m */; };
+		B212302320BA3E1300091A8E /* YKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B212302220BA3E1300091A8E /* YKMainViewController.m */; };
+		B212302920BA4D9A00091A8E /* YKPushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B212302820BA4D9A00091A8E /* YKPushButton.m */; };
+		B212302C20BA5D1000091A8E /* YKCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = B212302B20BA5D1000091A8E /* YKCountView.m */; };
+		B212302F20BA874500091A8E /* YKGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = B212302E20BA874500091A8E /* YKGraphView.m */; };
+		B26D38B220C2940C0086EE2B /* YKBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26D38B120C2940C0086EE2B /* YKBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B212300820BA3DD500091A8E /* YKDrinkRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKDrinkRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B212300B20BA3DD500091A8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B212300C20BA3DD500091A8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B212300E20BA3DD500091A8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B212300F20BA3DD500091A8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B212301220BA3DD500091A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B212301420BA3DD600091A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B212301720BA3DD600091A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B212301920BA3DD600091A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B212301A20BA3DD600091A8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B212302120BA3E1300091A8E /* YKMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKMainViewController.h; sourceTree = "<group>"; };
+		B212302220BA3E1300091A8E /* YKMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKMainViewController.m; sourceTree = "<group>"; };
+		B212302720BA4D9A00091A8E /* YKPushButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKPushButton.h; sourceTree = "<group>"; };
+		B212302820BA4D9A00091A8E /* YKPushButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPushButton.m; sourceTree = "<group>"; };
+		B212302A20BA5D1000091A8E /* YKCountView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKCountView.h; sourceTree = "<group>"; };
+		B212302B20BA5D1000091A8E /* YKCountView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKCountView.m; sourceTree = "<group>"; };
+		B212302D20BA874500091A8E /* YKGraphView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKGraphView.h; sourceTree = "<group>"; };
+		B212302E20BA874500091A8E /* YKGraphView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKGraphView.m; sourceTree = "<group>"; };
+		B26D38B020C2940C0086EE2B /* YKBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKBackgroundView.h; sourceTree = "<group>"; };
+		B26D38B120C2940C0086EE2B /* YKBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKBackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +70,23 @@
 		B212300A20BA3DD500091A8E /* YKDrinkRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				B212300B20BA3DD500091A8E /* AppDelegate.h */,
-				B212300C20BA3DD500091A8E /* AppDelegate.m */,
-				B212300E20BA3DD500091A8E /* ViewController.h */,
-				B212300F20BA3DD500091A8E /* ViewController.m */,
+				B212302720BA4D9A00091A8E /* YKPushButton.h */,
+				B212302820BA4D9A00091A8E /* YKPushButton.m */,
+				B212302A20BA5D1000091A8E /* YKCountView.h */,
+				B212302B20BA5D1000091A8E /* YKCountView.m */,
+				B212302D20BA874500091A8E /* YKGraphView.h */,
+				B212302E20BA874500091A8E /* YKGraphView.m */,
+				B212302120BA3E1300091A8E /* YKMainViewController.h */,
+				B212302220BA3E1300091A8E /* YKMainViewController.m */,
 				B212301120BA3DD500091A8E /* Main.storyboard */,
 				B212301420BA3DD600091A8E /* Assets.xcassets */,
 				B212301620BA3DD600091A8E /* LaunchScreen.storyboard */,
+				B212300B20BA3DD500091A8E /* AppDelegate.h */,
+				B212300C20BA3DD500091A8E /* AppDelegate.m */,
 				B212301920BA3DD600091A8E /* Info.plist */,
 				B212301A20BA3DD600091A8E /* main.m */,
+				B26D38B020C2940C0086EE2B /* YKBackgroundView.h */,
+				B26D38B120C2940C0086EE2B /* YKBackgroundView.m */,
 			);
 			path = YKDrinkRecorder;
 			sourceTree = "<group>";
@@ -97,6 +117,7 @@
 		B212300020BA3DD500091A8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YK;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = yankang;
 				TargetAttributes = {
@@ -141,8 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B212301020BA3DD500091A8E /* ViewController.m in Sources */,
 				B212301B20BA3DD600091A8E /* main.m in Sources */,
+				B212302920BA4D9A00091A8E /* YKPushButton.m in Sources */,
+				B212302320BA3E1300091A8E /* YKMainViewController.m in Sources */,
+				B212302F20BA874500091A8E /* YKGraphView.m in Sources */,
+				B26D38B220C2940C0086EE2B /* YKBackgroundView.m in Sources */,
+				B212302C20BA5D1000091A8E /* YKCountView.m in Sources */,
 				B212300D20BA3DD500091A8E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
