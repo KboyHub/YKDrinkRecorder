@@ -57,12 +57,11 @@
     CGGradientRef gradient = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), (__bridge CFArrayRef)colorArray, locations);
     CGContextDrawLinearGradient(context, gradient, CGPointMake(40, 40), CGPointMake(100, 160), 0);
     CGContextRestoreGState(context);
-
-#warning 有问题b
-    CGAffineTransform transform = CGAffineTransformMakeScale(0.8, 0.8);
-    CGAffineTransformTranslate(transform, 15, 30);
-    medallionPath.lineWidth = 2.0;
     
+    //奖章内环
+    CGAffineTransform transform = CGAffineTransformMakeScale(0.8, 0.8);
+    transform = CGAffineTransformTranslate(transform, 15, 30);
+    medallionPath.lineWidth = 2.0;
     [medallionPath applyTransform:transform];
     [medallionPath stroke];
     
